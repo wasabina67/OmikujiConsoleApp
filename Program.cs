@@ -60,5 +60,5 @@ Console.WriteLine("🎋✨ See you again ✨🎋");
 Console.WriteLine("=======================");
 Console.ResetColor();
 
-Console.WriteLine("\nPress Enter to finish...");
-Console.ReadLine();
+// Console.WriteLine("\nPress Enter to finish...");
+// Console.ReadLine();

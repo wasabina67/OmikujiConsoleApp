@@ -1,6 +1,8 @@
 # OmikujiConsoleApp
 Omikuji Console App
 
+## Commands
+
 ```
 repos\OmikujiConsoleApp> dotnet --version
 9.0.301

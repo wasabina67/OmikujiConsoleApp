@@ -22,3 +22,8 @@ repos\OmikujiConsoleApp> dotnet new globaljson
 repos\OmikujiConsoleApp> dotnet sln migrate
 .slnx ファイル C:\Users\wasab\source\repos\OmikujiConsoleApp\OmikujiConsoleApp.slnx 生成されました。
 ```
+
+```
+repos\OmikujiConsoleApp> dotnet run
+Hello, World!
+```

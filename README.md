@@ -27,5 +27,19 @@ repos\OmikujiConsoleApp> dotnet sln migrate
 
 ```
 repos\OmikujiConsoleApp> dotnet run
-Hello, World!
+========================================
+🎋✨ Welcome to Omikuji Console App ✨🎋
+========================================
+
+🙏 Drawing a fortune...
+
+📜 Your fortune is
+
+🌟 中吉 🌟
+
+💡 まずまずの運勢です。焦らず着実に進めましょう。
+
+=======================
+🎋✨ See you again ✨🎋
+=======================
 ```

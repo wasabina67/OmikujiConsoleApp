@@ -9,8 +9,8 @@ Console.WriteLine("========================================");
 Console.WriteLine("🎋✨ Welcome to Omikuji Console App ✨🎋");
 Console.WriteLine("========================================");
 Console.ResetColor();
-
 Console.WriteLine("");
+
 Console.WriteLine("🙏 Drawing a fortune 🙏");
 for (int i = 0; i < 3; i++)
 {
@@ -18,7 +18,7 @@ for (int i = 0; i < 3; i++)
     Console.Write(".");
 }
 Thread.Sleep(500);
-Console.WriteLine("");
+Console.WriteLine("\n");
 
 string[] fortunes = { "大吉", "吉", "中吉", "小吉", "末吉", "凶", "大凶" };
 string[] emojis = { "🌟🌟🌟", "🌟🌟", "🌟", "✨", "🍀", "☁️", "⚡" };
@@ -31,8 +31,20 @@ string[] advice = {
     "6",
     "7"
 };
+ConsoleColor[] colors = {
+    ConsoleColor.Yellow,
+    ConsoleColor.Yellow,
+    ConsoleColor.Green,
+    ConsoleColor.Green,
+    ConsoleColor.Blue,
+    ConsoleColor.DarkYellow,
+    ConsoleColor.Red
+};
 
 Random random = new Random();
 int index = random.Next(fortunes.Length);
 Console.WriteLine("📜 Your fortune is...");
 Thread.Sleep(1000);
+
+Console.ForegroundColor = colors[index];
+Console.WriteLine("aaaa");

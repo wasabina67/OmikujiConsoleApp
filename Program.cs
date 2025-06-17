@@ -11,7 +11,7 @@ Console.WriteLine("========================================");
 Console.ResetColor();
 Console.WriteLine("");
 
-Console.WriteLine("🙏 Drawing a fortune 🙏");
+Console.Write("🙏 Drawing a fortune");
 for (int i = 0; i < 3; i++)
 {
     Thread.Sleep(500);
@@ -43,8 +43,13 @@ ConsoleColor[] colors = {
 
 Random random = new Random();
 int index = random.Next(fortunes.Length);
-Console.WriteLine("📜 Your fortune is...");
+Console.WriteLine("📜 Your fortune is");
 Thread.Sleep(1000);
 
 Console.ForegroundColor = colors[index];
-Console.WriteLine("aaaa");
+Console.WriteLine("");
+Console.WriteLine($"{emojis[index]} {fortunes[index]} {emojis[index]}");
+Console.WriteLine("");
+Console.ResetColor();
+
+Console.WriteLine($"💡 {advice[index]}");

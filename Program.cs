@@ -19,3 +19,20 @@ for (int i = 0; i < 3; i++)
 }
 Thread.Sleep(500);
 Console.WriteLine("");
+
+string[] fortunes = { "大吉", "吉", "中吉", "小吉", "末吉", "凶", "大凶" };
+string[] emojis = { "🌟🌟🌟", "🌟🌟", "🌟", "✨", "🍀", "☁️", "⚡" };
+string[] advice = {
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+};
+
+Random random = new Random();
+int index = random.Next(fortunes.Length);
+Console.WriteLine("📜 Your fortune is...");
+Thread.Sleep(1000);

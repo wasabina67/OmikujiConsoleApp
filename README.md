@@ -1,1 +1,2 @@
 # OmikujiConsoleApp
+Omikuji Console App

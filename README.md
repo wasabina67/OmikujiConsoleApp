@@ -17,3 +17,8 @@ repos\OmikujiConsoleApp> dotnet --list-sdks
 repos\OmikujiConsoleApp> dotnet new globaljson
 テンプレート "global.json ファイル" が正常に作成されました。
 ```
+
+```
+repos\OmikujiConsoleApp> dotnet sln migrate
+.slnx ファイル C:\Users\wasab\source\repos\OmikujiConsoleApp\OmikujiConsoleApp.slnx 生成されました。
+```

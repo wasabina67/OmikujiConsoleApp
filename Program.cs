@@ -51,5 +51,10 @@ Console.WriteLine("");
 Console.WriteLine($"{emojis[index]} {fortunes[index]} {emojis[index]}");
 Console.WriteLine("");
 Console.ResetColor();
-
 Console.WriteLine($"💡 {advice[index]}");
+
+Console.ForegroundColor = ConsoleColor.Magenta;
+Console.WriteLine("");
+Console.WriteLine("=======================");
+Console.WriteLine("🎋✨ See you again ✨🎋");
+Console.WriteLine("=======================");
